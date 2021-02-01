@@ -2,8 +2,8 @@
 ### How to Build/Run locally:
 #### clone repo:
 ```
-git clone 
-cd 
+git clone https://github.com/vsshk/python-pytest-pytestbdd-requests-example.git
+cd python-pytest-pytestbdd-requests-example
 ```
 1. In order to run you have to install Python3.6+
 2. You need to have pip installed
@@ -29,3 +29,4 @@ WHERE (-n 4) number of threads, (--alluredir=reports/) report directory.
 python -m pytest --gherkin-terminal-reporter  --showlocals  --alluredir=reports/ tests/test_api.py  --base_url https://swapi.dev
 ```
     WHERE (-n 4) number of threads, (--alluredir=reports/) report directory.
+* Please give a "star" if it helped you.
