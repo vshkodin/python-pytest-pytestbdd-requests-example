@@ -23,10 +23,9 @@ python -m pytest --alluredir=reports/ tests/test_api.py  --base_url https://swap
 ```
 python -m pytest --alluredir=reports/ tests/test_web_smoke.py  --base_url https://swapi.dev
 ```
-WHERE (-n 4) number of threads, (--alluredir=reports/) report directory.
 6. Running all tests
 ```
-python -m pytest --gherkin-terminal-reporter  --showlocals  --alluredir=reports/ tests/test_api.py  --base_url https://swapi.dev
+python -m pytest --alluredir=reports/ tests --base_url https://swapi.dev
 ```
     WHERE (-n 4) number of threads, (--alluredir=reports/) report directory.
 * Please give a "star" if it helped you.
